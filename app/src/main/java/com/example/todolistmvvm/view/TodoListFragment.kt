@@ -51,13 +51,6 @@ class TodoListFragment : Fragment() {
             val todoId: Int = checkedTodo.id
             update_todo.let {
                 it.setText(checkedTodo.title)
-
-                (activity as? FragmentChange)?.change(UpdateFragment())
-
-                val fm: FragmentManager = supportFragmentManager
-                val ft: FragmentTransaction = fm.beginTransaction()
-                ft.replace(R.id.fragment_main, UpdateFragment())
-                ft.commit()
             }
 
         }

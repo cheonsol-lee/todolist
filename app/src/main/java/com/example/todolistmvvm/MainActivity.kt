@@ -9,7 +9,7 @@ import com.example.todolistmvvm.view.TodoListFragment
 
 /**
  *
- * 추가기능 : readme 추가
+ * 추가기능 : 불필요한 부분 삭제
  *
  * */
 
