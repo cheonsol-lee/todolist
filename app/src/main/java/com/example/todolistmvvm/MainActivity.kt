@@ -7,6 +7,12 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.example.todolistmvvm.view.TodoListFragment
 
+/**
+ *
+ * 추가기능 : readme 추가
+ *
+ * */
+
 class MainActivity : AppCompatActivity(){
 
     override fun onCreate(savedInstanceState: Bundle?) {
