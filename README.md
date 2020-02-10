@@ -1,6 +1,6 @@
 # Android + Kotlin 실습: DataBinding + LiveData + ViewModel + RecylcerView 연계한 Todo List 앱 만들기
 
-	§ 요구 사항
+## 요구 사항
 		□ 전체 구성
 			® Activity 한 개 
 			® Fragment 2개 (Todo List 용 1개; 수정/삭제용 1개)
