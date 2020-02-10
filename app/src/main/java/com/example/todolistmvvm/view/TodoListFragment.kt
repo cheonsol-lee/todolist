@@ -1,6 +1,5 @@
 package com.example.todolistmvvm.view
 
-import android.content.Context
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -15,12 +14,10 @@ import androidx.fragment.app.FragmentTransaction
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.DividerItemDecoration
-import com.example.todolistmvvm.FragmentChange
 import com.example.todolistmvvm.MainRvAdapter
 import com.example.todolistmvvm.R
 import com.example.todolistmvvm.databinding.FragmentTodolistBinding
 import com.example.todolistmvvm.viewmodel.MainViewModel
-import kotlinx.android.synthetic.main.fragment_todolist.*
 import kotlinx.android.synthetic.main.fragment_update.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

@@ -7,10 +7,7 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.example.todolistmvvm.view.TodoListFragment
 
-class MainActivity : AppCompatActivity(), FragmentChange {
-    override fun change(framgent: Fragment) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
+class MainActivity : AppCompatActivity(){
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
